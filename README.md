@@ -46,13 +46,6 @@ If you encounter any issues while using SearchAndRecycle or have any questions, 
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Acknowledgements
-We would like to thank the following resources for their valuable contributions to the development of SearchAndRecycle:
-
-Resource 1
-Resource 2
-Resource 3
-Special thanks to our beta testers for their valuable feedback and suggestions.
 
 Contact
 For any inquiries or further information, please contact us:
