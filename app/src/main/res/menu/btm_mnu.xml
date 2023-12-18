@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/transparent"
+    >
+    <item android:id="@+id/miHome"
+        android:title="@string/home"
+        android:icon="@drawable/img_home"/>
+    <item android:id="@+id/miLearn"
+        android:title="@string/events"
+        android:icon="@drawable/img_computer"/>
+    <item android:id="@+id/placeholder"
+        android:title=""/>
+    <item android:id="@+id/miLocation"
+        android:title="@string/map"
+        android:icon="@drawable/img_location"/>
+    <item android:id="@+id/miProfile"
+        android:title="@string/Profile"
+        android:icon="@drawable/img_user"/>
+
+</menu>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.baseFragment"
+    android:background="@drawable/rectangle">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="363dp"
+        android:layout_height="278dp"
+        android:src="@drawable/img"
+        app:layout_constraintBottom_toTopOf="@+id/text3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="381dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/interbold"
+        android:text="Search And Recycle"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/btnConnexion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagelogo"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_goneMarginStart="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConnexion"
+        style="@style/btnSolidRoundedOutline_1"
+        android:layout_width="251dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingStart="30dp"
+        android:paddingTop="25dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="25dp"
+        android:singleLine="true"
+        android:text="Login"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="557dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnInscription"
+        app:layout_constraintTop_toBottomOf="@id/text3"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnInscription"
+        style="@style/btnSolidRounded"
+        android:layout_width="251dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:layout_marginBottom="16dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingStart="30dp"
+        android:paddingTop="24dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="24dp"
+        android:singleLine="true"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnConnexion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="81dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

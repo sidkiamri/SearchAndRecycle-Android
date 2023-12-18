@@ -1,0 +1,134 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="caseSucessVM" type="com.example.recycleview.activity.Case_sucess" />
+    </data>
+    <FrameLayout android:id="@+id/frameStackflashslash"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <ProgressBar
+            android:id="@+id/prgbar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:id="@+id/linearColumn"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnflashslash"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="14dp"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearPopupsuccess"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="22dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="139dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_4">
+                    <ImageView android:id="@+id/imageShape"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="101dp"
+                        android:layout_marginEnd="73dp"
+                        android:layout_marginStart="73dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="96dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_shape_green_a200"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_shape_green_a200"/>
+
+                    <TextView
+                        android:id="@+id/txtSuccess"
+                        style="@style/txtInterbold30"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="89dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="89dp"
+                        android:ellipsize="end"
+                        android:lineSpacingExtra="1dp"
+                        android:singleLine="true"
+                        android:text="+2 Points" />
+
+                    <TextView
+                        android:id="@+id/txtH6RegularDesk"
+                        style="@style/txtIntermedium12_1"
+                        android:layout_width="282dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="19dp"
+                        android:layout_marginEnd="60dp"
+                        android:gravity="end"
+                        android:lineSpacingExtra="10dp"
+                        android:text="congratulations !! You earned 2 points. Keep the recycling going to save nature and earn more ." />
+                    <FrameLayout android:id="@+id/frameStacklinethree"
+                        android:layout_gravity="start"
+                        android:layout_height="63dp"
+                        android:layout_marginTop="20dp" android:layout_width="320dp">
+                        <View android:background="@color/bluegray_50"
+                            android:id="@+id/lineLineThree"
+                            android:layout_gravity="center"
+                            android:layout_height="62dp"
+                            android:layout_marginEnd="40dp"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="1dp" android:layout_width="3dp"/>
+                        <View android:background="@color/bluegray_50"
+                            android:id="@+id/lineLineTwo"
+                            android:layout_gravity="top|start"
+                            android:layout_height="3dp"
+                            android:layout_marginBottom="10dp" android:layout_width="320dp"/>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:id="@+id/ClaimButton"
+                            android:layout_gravity="top|center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginEnd="88dp"
+                            android:layout_marginStart="88dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="1dp"
+                            android:paddingBottom="15dp"
+                            android:paddingEnd="30dp"
+                            android:paddingStart="30dp"
+                            android:paddingTop="15dp"
+                            android:singleLine="true"
+                            android:text="Claim"
+                            android:textAllCaps="false"
+                            style="@style/btnSolidRoundedOutline" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearRowpictures"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="132dp"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                </LinearLayout>
+                <ImageView android:id="@+id/imageArrowdown"
+                    android:layout_gravity="start"
+                    android:layout_height="5dp"
+                    android:layout_marginEnd="150dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="89dp"
+                    android:layout_width="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_arrowdown"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrowdown"/>
+            </LinearLayout>
+            <FrameLayout android:gravity="start"
+                android:id="@+id/frameBottombar"
+                android:layout_height="wrap_content" android:layout_width="match_parent">
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>
