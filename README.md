@@ -1,4 +1,4 @@
-SearchAndRecycle
+## SearchAndRecycle
 ![Search (5)](https://github.com/tahamejdoub22/ios-miniprojet-/assets/98952572/183fdcea-6e9c-4e6b-9968-f8712d05e567)
 
 
