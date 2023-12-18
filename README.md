@@ -4,7 +4,7 @@ TrashReduce Logo
 
 
  
-TrashReduce is an iOS application developed by Sidki Amri and Mohamed Taha Mejoub. It is designed to promote recycling and reduce waste by providing users with a platform to participate in clean-up events, earn rewards, and locate recycling bins. The application aims to raise awareness about the importance of protecting the environment and encourages users to actively contribute to waste reduction efforts.
+TrashReduce is an Android application developed by Sidki Amri and Mohamed Taha Mejoub. It is designed to promote recycling and reduce waste by providing users with a platform to participate in clean-up events, earn rewards, and locate recycling bins. The application aims to raise awareness about the importance of protecting the environment and encourages users to actively contribute to waste reduction efforts.
 
 Features
 Home Screen
@@ -20,15 +20,15 @@ Add New Item Screen
 The "Add New Item" screen allows users to contribute to the recycling efforts by reporting the disposal of specific materials. For example, users can report the recycling of plastic items or other types of waste. By confirming the recycling action, users earn 5 points that contribute to their reward balance.
 
 Installation
-To install TrashReduce on your iOS device, follow these steps:
+To install TrashReduce on your Android device, follow these steps:
 
 Clone the repository:
 bash
 Copy code
-git clone [https://github.com/tahamejdoub22/ios-miniprojet-.git]
+git clone [(https://github.com/sidkiamri/SearchAndRecycle-Android.git)]
 Open the project in Xcode.
 
-Build and run the project on your iOS device or simulator.
+Build and run the project on your Android device or simulator.
 
 Contributing
 We welcome contributions to TrashReduce! If you would like to contribute to the project, please follow these steps:
